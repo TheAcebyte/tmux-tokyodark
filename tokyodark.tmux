@@ -29,8 +29,8 @@ main() {
     set_tmux_option "status-left-length" "100"
     set_tmux_option "status-right-length" "100"
 
-    set_tmux_option "message-style" "fg=${thm_cyan},bg=${thm_gray},align=centre"
-    set_tmux_option "message-command-style" "fg=${thm_cyan},bg=${thm_gray},align=centre"
+    set_tmux_option "message-style" "fg=${thm_cyan},bg=${thm_gray},fill=${thm_gray},align=centre"
+    set_tmux_option "message-command-style" "fg=${thm_cyan},bg=${thm_gray},fill=${thm_gray},align=centre"
 
     set_tmux_option "pane-border-style" "fg=${thm_gray}"
     set_tmux_option "pane-active-border-style" "fg=${thm_blue}"
